@@ -1,6 +1,9 @@
 import html
 import os
 
+# Fix protobuf/chromadb descriptor conflict on Python 3.14
+os.environ.setdefault("PROTOCOL_BUFFERS_PYTHON_IMPLEMENTATION", "python")
+
 import markdown as md_lib
 
 import streamlit as st
