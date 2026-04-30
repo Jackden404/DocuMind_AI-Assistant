@@ -1,0 +1,42 @@
+# Environment variables (API keys — NEVER commit this!)
+.env
+.env.local
+.env.*.local
+
+# Python cache
+__pycache__/
+*.py[cod]
+*.pyo
+*.pyd
+.Python
+
+# Virtual environments
+venv/
+env/
+.venv/
+ENV/
+
+# Vector store / FAISS index files (can be large)
+faiss_index/
+*.faiss
+*.pkl
+
+# Uploaded PDFs (user data)
+uploads/
+*.pdf
+
+# Jupyter Notebooks checkpoints
+.ipynb_checkpoints/
+
+# OS files
+.DS_Store
+Thumbs.db
+
+# IDE files
+.vscode/
+.idea/
+*.code-workspace
+
+# Logs
+*.log
+logs/
