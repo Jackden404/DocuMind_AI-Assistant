@@ -4,4 +4,3 @@ langchain-text-splitters==0.2.2
 chromadb==0.5.3
 PyPDF2==3.0.1
 python-dotenv==1.0.1
-markdown==3.6
